@@ -22,7 +22,7 @@ ChartJS.register(
 
 import htmlImg from '../assets/HTML.png'
 import cssImg from '../assets/CSS.png'
-import jasImg from '../assets/js.jfif'
+import jasImg from '../assets/javascript.jfif'
 import reactImg from '../assets/ReactLogo.png'
 import expressImg from '../assets/express.png'
 import mongodbImg from '../assets/mongoDB.png'
