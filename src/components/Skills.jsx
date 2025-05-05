@@ -22,7 +22,7 @@ ChartJS.register(
 
 import htmlImg from '../assets/HTML.png'
 import cssImg from '../assets/CSS.png'
-import jsImg from '../assets/js.jfif'
+import jasImg from '../assets/js.jfif'
 import reactImg from '../assets/ReactLogo.png'
 import expressImg from '../assets/express.png'
 import mongodbImg from '../assets/mongoDB.png'
@@ -32,7 +32,7 @@ import githubImg from '../assets/GitHub.png'
 const skills = [
   { name: 'HTML', image: htmlImg },
   { name: 'CSS', image: cssImg },
-  { name: 'JavaScript', image: jsImg },
+  { name: 'JavaScript', image: jasImg },
   { name: 'React', image: reactImg },
   { name: 'Express', image: expressImg },
   { name: 'MongoDB', image: mongodbImg },
