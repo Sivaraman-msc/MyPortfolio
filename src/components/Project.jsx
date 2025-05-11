@@ -5,6 +5,12 @@ import proj1Img3 from '../assets/projectone3.png'
 import proj1Img4 from '../assets/projectone4.png'
 import proj1Img5 from '../assets/projectone5.png'
 import proj1Img6 from '../assets/projectone6.png'
+import proj2Img1 from '../assets/projectTwo1.png'
+import proj2Img2 from '../assets/projectTwo2.png'
+import proj2Img3 from '../assets/projectTwo3.png'
+import proj2Img4 from '../assets/projectTwo4.png'
+import proj2Img5 from '../assets/projectTwo5.png'
+import proj2Img6 from '../assets/projectTwo6.png'
 
 export default function Project() {
   const projects = [
@@ -20,7 +26,7 @@ export default function Project() {
       tech: 'React, Node.js, MongoDB , Express.js, TailwindCSS',
       description:
         'Built a Bug tracking system using MERN with secure Login(Auth/Authorization). Testers report bugs & developers fix issues , role based access. integrated cloudinary for uploads.',
-      images: [],
+      images: [proj2Img1,proj2Img2,proj2Img3,proj2Img4,proj2Img5,proj2Img6],
     },
 
   ]
