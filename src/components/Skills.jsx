@@ -45,8 +45,8 @@ const data = {
   datasets: [
     {
       label: 'Skill Level',
-      data: [100, 90, 74, 84, 90,85,95, 75],
-      barThickness:40,
+      data: [100, 90, 74, 84, 90, 85, 95, 75],
+      barThickness: 40,
       backgroundColor: ['orange', 'blue', 'gold', 'skyblue', 'red', 'green', 'pink', 'gray']
     }
   ]
@@ -54,6 +54,7 @@ const data = {
 
 const options = {
   responsive: true,
+  maintainAspectRatio: false,
   plugins: {
     legend: { display: true },
     title: { display: true }
@@ -80,10 +81,12 @@ export default function Skills() {
         ))}
       </div>
 
-      <div className="bg-white rounded-xl shadow-md p-6 mx-auto max-w-4xl">
-      <Bar data={data} options={options} />
+      <div className="bg-white rounded-xl shadow-md p-4 w-full overflow-x-auto">
+        <div className="min-w-[500px] h-[300px]">
+          <Bar data={data} options={options} />
+        </div>
       </div>
-      
+
     </section>
   )
 }
