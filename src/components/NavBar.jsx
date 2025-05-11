@@ -7,7 +7,7 @@ export function NavBar() {
                 <div className="text-2xl font-bold text-gray-600 tracking-wide">
                     Sivaraman S
                 </div>
-                <ul className='flex flex-col lg:flex-row items-center gap-4 lg:gap-8 mt-2 lg:mt-0 text-gray-600 font-medium text-lg'>
+                <ul className='flex flex-row lg:flex-row items-center gap-4 lg:gap-8 mt-2 lg:mt-0 text-gray-600 font-medium text-lg'>
                     <li><a href='#about' className='hover:text-blue-500 transition-colors cursor-pointer'>About</a></li>
                     <li><a href="#education" className="hover:text-blue-500 transition-colors cursor-pointer">
                         Education
