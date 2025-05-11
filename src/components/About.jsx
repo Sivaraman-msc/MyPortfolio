@@ -19,12 +19,16 @@ export default function About() {
 </section>
     <div id='about' className=" flex flex-col md:flex-row items-center gap-6 w-full max-w-6xl lg:mx-auto pt-20">
 
-  <div className="text-gray-800 max-w-md max-auto">
-    <h2 className="text-2xl font-bold mb-2 text-gray-700">About</h2>
-    <p className="text-lg lg:w-270 sm:mx-auto leading-relaxed text-gray-500">
-    Highly skilled Full Stack Developer with expertise in the MERN stack (MongoDB, Express.js, React.js, Node.js) and proficiency in HTML, CSS, JS and Tailwind CSS. Proficient in API testing with Postman and version control with GitHub. Recent Master's degree graduate (2025) with a strong foundation in software development, ready to leverage technical skills to drive innovative solutions and deliver high-quality applications.
-    </p>
-  </div>
+  <div className="text-gray-800 w-full max-w-2xl px-4 mx-auto">
+  <h2 className="text-2xl font-bold mb-4 text-gray-700 text-center md:text-left">About</h2>
+  <p className="text-lg leading-relaxed text-gray-600 text-center md:text-left">
+    Highly skilled Full Stack Developer with expertise in the MERN stack (MongoDB, Express.js, React.js, Node.js)
+    and proficiency in HTML, CSS, JS, and Tailwind CSS. Proficient in API testing with Postman and version control with GitHub.
+    Recent Master's degree graduate (2025) with a strong foundation in software development, ready to leverage technical
+    skills to drive innovative solutions and deliver high-quality applications.
+  </p>
+</div>
+
 </div>
     </>
   )
