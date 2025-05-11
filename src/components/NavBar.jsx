@@ -3,7 +3,7 @@ import React from 'react'
 export function NavBar() {
     return (
         <>
-            <nav className="hidden sm:flex w-full px-6 py-4 bg-white shadow-md flex flex-col lg:flex-row items-center justify-between lg:fixed">
+            <nav className="hidden sm:flex w-full px-6 py-4 bg-white shadow-md flex flex-row lg:flex-row items-center justify-between lg:fixed">
                 <div className="text-2xl font-bold text-gray-600 tracking-wide">
                     Sivaraman S
                 </div>
