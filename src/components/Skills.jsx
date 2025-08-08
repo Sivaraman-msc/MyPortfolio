@@ -45,7 +45,7 @@ const data = {
   datasets: [
     {
       label: 'Skill Level',
-      data: [100, 90, 74, 84, 90, 85, 95, 75],
+      data: [100, 90, 94, 97, 90, 90, 95, 85],
       barThickness: 40,
       backgroundColor: ['orange', 'blue', 'gold', 'skyblue', 'red', 'green', 'pink', 'gray']
     }

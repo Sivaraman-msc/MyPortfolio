@@ -13,6 +13,11 @@ import proj2Img3 from '../assets/projectTwo3.png'
 import proj2Img4 from '../assets/projectTwo4.png'
 import proj2Img5 from '../assets/projectTwo5.png'
 import proj2Img6 from '../assets/projectTwo6.png'
+import proj3Img1 from '../assets/projectThree1.png'
+import proj3Img2 from '../assets/projectThree2.png'
+import proj3Img3 from '../assets/projectThree3.png'
+import proj3Img4 from '../assets/projectThree4.png'
+import proj3Img5 from '../assets/projectThree5.png'
 
 export default function Project() {
   const projects = [
@@ -31,6 +36,12 @@ export default function Project() {
         'Built a bug tracking system using MERN with secure login (Auth/Authorization). Testers report bugs & developers fix issues. Role-based access. Integrated Cloudinary for uploads.',
       images: [proj2Img1, proj2Img2, proj2Img3, proj2Img4, proj2Img5, proj2Img6],
       link: 'https://github.com/Sivaraman-msc/BugHound.git'
+    },{
+      name:'3. CodeSieve - Candidate Code Evaluation',
+      tech:'React, Node.js, MongoDB, Express.js, TailwindCSS',
+      description:'CodeSieve is an online coding interview platform where recruiters assign coding tasks and candidates submit their solutions.',
+      images: [proj3Img1, proj3Img2, proj3Img3, proj3Img4, proj3Img5],
+      link:'https://github.com/Sivaraman-msc/CodeSieve.git'
     }
   ]
 
