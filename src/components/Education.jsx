@@ -16,6 +16,7 @@ export default function Education() {
       year: '2023-2025',
       college: 'Vidhyaa Giri College of Arts & Science',
       location: 'Puduvayal',
+      CGPA:'7.5'
     },
   ];
 

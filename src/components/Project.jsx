@@ -18,6 +18,7 @@ import proj3Img2 from '../assets/projectThree2.png'
 import proj3Img3 from '../assets/projectThree3.png'
 import proj3Img4 from '../assets/projectThree4.png'
 import proj3Img5 from '../assets/projectThree5.png'
+import proj3Img6 from '../assets/projectThree6.png'
 
 export default function Project() {
   const projects = [
@@ -40,7 +41,7 @@ export default function Project() {
       name:'3. CodeSieve - Candidate Code Evaluation',
       tech:'React, Node.js, MongoDB, Express.js, TailwindCSS',
       description:'CodeSieve is an online coding interview platform where recruiters assign coding tasks and candidates submit their solutions.',
-      images: [proj3Img1, proj3Img2, proj3Img3, proj3Img4, proj3Img5],
+      images: [proj3Img1, proj3Img2, proj3Img3, proj3Img4, proj3Img5,proj3Img6],
       link:'https://github.com/Sivaraman-msc/CodeSieve.git'
     }
   ]
